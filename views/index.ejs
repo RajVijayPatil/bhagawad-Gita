@@ -1,1 +1,23 @@
-hello world
+<%- include('header.ejs') %>
+
+<div class="main-body">
+    <div class="container">
+        <div class="main-left">
+            <h1>"Whatever happened, happened for the good."</h1>
+        </div>
+        <div class="main-right">
+            <div class="search-gita">
+                <h2 class="search-title">Learn something?</h2>
+                <label for="chapters">Chapter:</label>
+                <input type="number" name="chapters" id="chapterInput">
+
+                <label for="verses">Verse:</label>
+                <input type="number" name="verses" id="verseInput">
+
+                <button type="submit" id="submitB">Read it</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('footer.ejs') %>
