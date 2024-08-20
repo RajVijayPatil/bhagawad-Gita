@@ -1,0 +1,39 @@
+.main-body {
+    min-height: calc(100vh - 100px);
+    padding: 40px;
+    height: calc(100vh - 100px);
+}
+
+.main-body .container {
+    display: flex;
+    height: 100%;
+}
+
+.main-left, .main-right {
+    flex: 1;
+    height: 100%;
+}
+
+.main-left {
+    font-family: 'cardo';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-left h1 {
+    text-align: center;
+}
+
+.main-left p {
+    text-align: right;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.search-gita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
