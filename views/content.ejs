@@ -1,0 +1,10 @@
+<%- include('header.ejs') %>
+
+<% if (information) { %>
+    <h1><%= information.name_translated %></h1>
+    <p><%= information.chapter_summary %></p>
+<% } else if (error) { %>
+    <p><%= error %></p>
+<% } %>
+
+<%- include('footer.ejs') %>
